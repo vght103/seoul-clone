@@ -1,0 +1,184 @@
+body, h1{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+.page_size{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* 헤더영역 */
+
+/* 헤더 내용들은 감싸는 부분 */
+.container{
+  position: relative;
+  overflow: hidden;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.header__logo{
+  float: left;
+  position: relative;
+  top: 10px;
+}
+
+.header__logo a{
+  display: block;
+  width: 105px;
+  height: 27px;
+  background: url(../img/header/logo/logo_header.PNG) no-repeat center center;
+}
+
+.header__logo a span{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.header__gnb{
+float: left;
+
+}
+
+.header__gnb ul li{
+  float: left;
+  padding: 0 10px;
+  }
+
+.header__login{
+  float: right;
+  font-size: 14px;
+}
+.header__login ul li{
+  float: left;
+  padding: 0 10px;
+}
+
+
+
+/* search 영역 */
+
+.search__area{
+  position: relative;
+  overflow: hidden;
+  width: 1200px;
+  height: 120px;
+  display: inline-block;
+  
+}
+
+.search__area-logo{
+  float: left;
+  width: 15%;
+  position: relative;
+  top: 35px;
+}
+
+.search__area-logo a{
+  display: block;
+  width: 178px;
+  height: 50px;
+  background: url(../img/header/logo/logo_new_2019.png) no-repeat center center;
+}
+
+.search__area-logo a span{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.search{
+  width: 450px;
+  position: relative;
+  left: 170px;
+  top: 40px;
+  border: 3px solid #2292e9;
+  overflow: hidden;
+  vertical-align: middle;
+  
+}
+
+
+.search__bar{
+  position: relative;
+  
+}
+
+.search__bar input{
+  width: 350px;
+  padding: 10px;
+  border: 0; 
+}
+
+.search__bar input img{
+  position: absolute;
+}
+
+.search__btn-icon{
+  float: right;
+  right: 0;
+  border: 0;
+}
+
+.search__btn-icon{
+  background: url(../img/search-icon.PNG) no-repeat center center;
+  width: 36px;
+  height: 36px;
+}
+
+
+.search__weather{
+  float: right;
+  width: 300px;
+  position: relative;
+  top: -10px;
+  left: 35px;
+}
+
+.weader-up span:first-child{
+  font-size: 25px;
+}
+
+.weader-down{
+  font-size: 13px;
+}
+
+.language{
+  float: right;
+  position: relative;
+  left: 300px;
+  bottom: 45px;
+  border: 0;
+}
+
+.language select{
+  color: #1e6cb3; 
+  border: 1px solid #1e6cb3;;
+}
+
+.language button{
+  background-color: #1e6cb3;
+  color: white;
+  border: 0;
+  width: 30px;
+  height: 21px;
+  padding: 0;
+}
