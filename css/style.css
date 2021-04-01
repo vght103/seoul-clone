@@ -113,10 +113,10 @@ float: left;
 
 .search{
   float: left;
-  /* width: 450px;
-  position: relative;
-  left: 170px; */
-  top: 40px;
+  width: 450px;
+  /* position: relative;
+  left: 170px;
+  top: 40px; */
   border: 3px solid #2292e9;
   overflow: hidden;
   vertical-align: middle;
