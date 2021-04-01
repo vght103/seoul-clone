@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body, h1{
   margin: 0;
 }
@@ -77,14 +82,15 @@ float: left;
   width: 1200px;
   height: 120px;
   display: inline-block;
-  
+  margin-top: 50px;
 }
 
 .search__area-logo{
   float: left;
-  width: 15%;
+  margin-right: 170px;
+  /* width: 15%;
   position: relative;
-  top: 35px;
+  top: 35px; */
 }
 
 .search__area-logo a{
@@ -106,9 +112,10 @@ float: left;
 }
 
 .search{
-  width: 450px;
+  float: left;
+  /* width: 450px;
   position: relative;
-  left: 170px;
+  left: 170px; */
   top: 40px;
   border: 3px solid #2292e9;
   overflow: hidden;
@@ -128,8 +135,9 @@ float: left;
   border: 0; 
 }
 
-.search__bar input img{
-  position: absolute;
+.search__bar img{
+  position: relative;
+  top: 5px;
 }
 
 .search__btn-icon{
