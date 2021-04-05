@@ -1,48 +1,57 @@
-*{
+
+
+* {
   margin: 0;
   padding: 0;
 }
 
-body, h1{
+body,
+h1 {
   margin: 0;
+  font-family: '나눔고딕';
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
+  
 }
-.page_size{
-  width: 1200px;
+.page_size {
+  width: 1160px;
   margin: 0 auto;
+  height: 200vh;
 }
+
 
 /* 헤더영역 */
 
 /* 헤더 내용들은 감싸는 부분 */
-.container{
+.container {
   position: relative;
   overflow: hidden;
   font-weight: 600;
-  margin-bottom: 10px;
+  padding: 10px 0;
+  /* letter-spacing: -1px; */
 }
 
-.header__logo{
+.header__logo {
   float: left;
-  position: relative;
-  top: 10px;
+  margin-right: 50px;
+  /* position: relative;
+  top: 10px; */
 }
 
-.header__logo a{
+.header__logo a {
   display: block;
   width: 105px;
   height: 27px;
   background: url(../img/header/logo/logo_header.PNG) no-repeat center center;
 }
 
-.header__logo a span{
+.header__logo a span {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -53,54 +62,53 @@ a{
   border: 0;
 }
 
-.header__gnb{
-float: left;
-
+.header__gnb {
+  float: left;
 }
 
-.header__gnb ul li{
+.header__gnb ul li {
   float: left;
   padding: 0 10px;
-  }
+}
 
-.header__login{
+.header__login {
   float: right;
   font-size: 14px;
 }
-.header__login ul li{
+.header__login ul li {
   float: left;
   padding: 0 10px;
 }
 
-
-
 /* search 영역 */
 
-.search__area{
+.search__area {
   position: relative;
   overflow: hidden;
-  width: 1200px;
-  height: 120px;
-  display: inline-block;
-  margin-top: 50px;
+  width: 1160px;
+  height: 90px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 50px;
 }
 
-.search__area-logo{
+.search__area-logo {
   float: left;
   margin-right: 170px;
+  vertical-align: bottom;
   /* width: 15%;
   position: relative;
   top: 35px; */
 }
 
-.search__area-logo a{
+.search__area-logo a {
   display: block;
   width: 178px;
   height: 50px;
   background: url(../img/header/logo/logo_new_2019.png) no-repeat center center;
 }
 
-.search__area-logo a span{
+.search__area-logo a span {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -111,7 +119,7 @@ float: left;
   border: 0;
 }
 
-.search{
+.search {
   float: left;
   width: 450px;
   /* position: relative;
@@ -119,41 +127,38 @@ float: left;
   top: 40px; */
   border: 3px solid #2292e9;
   overflow: hidden;
-  vertical-align: middle;
-  
 }
 
-
-.search__bar{
+.search__bar {
   position: relative;
-  
 }
 
-.search__bar input{
+.search__bar input {
   width: 350px;
   padding: 10px;
-  border: 0; 
+  border: 0;
 }
 
-.search__bar img{
+.search__bar img {
   position: relative;
   top: 5px;
 }
 
-.search__btn-icon{
+.search__btn-icon {
   float: right;
   right: 0;
   border: 0;
 }
 
-.search__btn-icon{
+.search__btn-icon {
   background: url(../img/search-icon.PNG) no-repeat center center;
   width: 36px;
   height: 36px;
 }
 
 
-.search__weather{
+
+.search__weather {
   float: right;
   width: 300px;
   position: relative;
@@ -161,32 +166,452 @@ float: left;
   left: 35px;
 }
 
-.weader-up span:first-child{
+.weader-up span:first-child {
   font-size: 25px;
 }
 
-.weader-down{
+.weader-down {
   font-size: 13px;
 }
 
-.language{
+.language {
   float: right;
   position: relative;
   left: 300px;
-  bottom: 45px;
+  bottom: 90px;
   border: 0;
 }
 
-.language select{
-  color: #1e6cb3; 
-  border: 1px solid #1e6cb3;;
+.language select {
+  color: #1e6cb3;
+  border: 1px solid #1e6cb3;
 }
 
-.language button{
+.language button {
   background-color: #1e6cb3;
   color: white;
   border: 0;
   width: 30px;
   height: 21px;
   padding: 0;
+}
+
+/* 메인배너 */
+
+.banner__area{
+  overflow: hidden;
+}
+
+.banner__tab{
+  float: left;
+}
+
+.banner__tab-1{
+  position: relative;
+  background-color: #0158a8;
+  width: 80px;
+  height: 175px;
+}
+
+.banner__tab-1 a{
+  display: block;
+  background: url(../img/banner/main_new_ico.PNG) no-repeat center center;
+  width: 50px;
+  height: 50px; 
+  background-color: white;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.banner__tab-1 a span{
+  position: relative;
+  top: 60px;
+}
+
+
+.banner__tab-2{
+  position: relative;
+  background-color: #d2e1e9;
+  width: 80px;
+  height: 175px;
+  top: ;
+}
+
+.banner__tab-2 a{
+  background: url(../img/banner/main_new_ico_2.PNG) no-repeat center center;
+  width: 50px;
+  height: 50px;
+  display: block;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 50%;
+  font-size: 12px;
+  margin: 0 auto;
+  position: relative;
+  top: 50px;
+}
+
+.banner__tab-2 a span{
+position: relative;
+top: 60px;
+}
+
+.main__banner{
+  float: left;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+.main__banner img{
+  float: left;
+}
+
+.main__banner .banner__slide{
+  background-color:rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 670px;
+  position: absolute;
+  top: 505px;
+  padding: 5px 10px;
+}
+
+.main__banner .banner__slide div{
+  display: inline-block;
+  position: relative;
+  left: 300px;
+}
+
+.main__banner .banner__slide div .prev{
+  background: url(../img/banner/prev.png) no-repeat center center;
+  height: 14px;
+  width: 14px;
+}
+
+.main__banner .banner__slide div .stop{
+  background: url(../img/banner/stop.png) no-repeat center center;
+  height: 14px;
+  width: 14px;
+}
+
+.main__banner .banner__slide div .next{
+  background: url(../img/banner/next.png) no-repeat center center;
+  height: 14px;
+  width: 14px;
+}
+
+
+.covid__list{
+  position: relative;
+  width: 360px;
+  height: 350px;
+  overflow: hidden;
+}
+
+.covid__list .covid__img{
+  float: left;
+  width: 100%;
+  height: 100%;
+  background: url(../img/banner/bg_corona_pc_210315.gif) no-repeat center center;
+}
+
+.covid__list .covid__img .covid__link{
+  height: 195px;
+  color: white;
+  display: block
+}
+
+
+.live__list-1{
+  padding-top: 44px;
+  margin-left: 75px;
+}
+
+.live__list-1 span:last-child{
+  margin-left: 115px;
+}
+
+.live__list-2{
+  position: relative;
+  top: 43px;
+  color: white;
+  margin-left: 55px;
+  
+}
+
+.live__list-2 span:nth-child(2){
+  margin-left: 70px;
+}
+.live__list-2 span:last-child{
+  margin-left: 78px;
+}
+
+
+.cure__link{
+  height: 155px;
+  color: white;
+  display: block;
+}
+
+.cure__list__wrap{
+  padding-top: 45px;
+  padding-left: 30px;
+}
+
+.cure__list-1 span, .cure__list-2 span{
+  padding-right: 28px;
+}
+
+.cure__list-1 span:nth-child(3){
+  margin-left: 20px;
+}
+
+.cure__list-2 span:nth-child(3){
+  margin-left: 25px;
+}
+
+.cure__list-2 span:last-child{
+  margin-left: 10px;
+}
+
+.covid__link>span, .cure__link>span{
+  color: black;
+  font-size: 12px;
+  position: relative;
+  left: 235px;
+  top: 8px;
+}
+
+
+/* Section 부분 */
+.seoul__service{
+  margin-top: 50px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.seoul__service hr{
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+.seoul__service-area{
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+}
+
+.seoul__service-area li{
+  float: left;
+}
+
+.seoul__service-area li a{
+  display: block;
+  text-align: center;
+  padding: 0 12px;
+  font-size: 15px;
+  letter-spacing: -2px;
+  
+}
+
+.job a{
+  padding: 0 5px;
+}
+
+
+.answer a i, .seoul a i, .job a i, .study a i, .town a i, .realty a i, .service a i, .welfare a i, .house a i, .manifesto a i, .council a i{
+  background: url(../img/service/icon_set_service_new.png);
+  width: 60px;
+  height: 60px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.answer a i{
+
+}
+
+.seoul a i{
+  background-position: -60px;
+}
+
+.job a i{
+  background-position: -120px;
+}
+
+.study a i{
+  background-position: -180px;
+}
+
+.town a i{
+  background-position: -840px;
+}
+.realty a i{
+  background-position: -300px;
+}
+.service a i{
+  background-position: -360px;
+}
+.welfare a i{
+  background-position: -960px;
+}
+
+.house a i{
+  background-position: -780px;
+}
+
+.manifesto a i{
+  background-position: -900px;
+}
+
+.council a i{
+  background-position: -600px;
+}
+
+.seoul__service .service__more{
+  display: block;
+  float: right;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 3px 10px;
+  position: relative;
+  top: -150px;
+  font-size: 15px;
+  width: 112px;
+  height: 29px;
+  background: url(../img/icon_link6.png) no-repeat right 8px top 50%;
+}
+
+.service__wrap-2{
+  overflow: hidden;
+  margin-top: 50px;
+  background-color: #eff4f8;
+  
+}
+
+
+.service__wrap-2 ul li{
+  float: left;
+  padding: 20px 0;
+}
+
+.service__wrap-2 ul li .divider{
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.event__area{
+  overflow: hidden;
+  padding: 50px 0;
+  font-size: 15px;
+  position: relative;
+}
+
+.event__1, .event__2, .event__3{
+  float: left;
+  width: 366px;
+  height: 230px;
+  letter-spacing: -1px;
+  position: relative;
+}
+
+.event__1 h2, .event__2 h2, .event__3 h2{
+  margin-bottom: 5px;
+}
+
+.event__area hr{
+  opacity: 0.5;
+}
+
+.event__1 li, .event__2 li{
+  padding: 8px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event__1 b, .event__2 b{
+  margin-right: 8px;
+}
+
+.event__2{
+  margin: 0 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.event__3{
+  overflow: hidden;
+}
+
+.event__3 ul{
+  background-color: #eff4f8;
+  overflow: hidden;
+  padding: 5px 0;
+}
+
+.event__3 ul li{
+  float: left;
+  width: 50%;
+  padding: 7px 0;
+  /* padding: 2px; */
+}
+
+.event__3 ul li a{
+  padding: 15px;
+}
+
+.event__more{
+  background: url(../img/icon_plus.png) no-repeat center center;
+  border: 1px solid #ddd;
+  height: 22px;
+  will-change: 22px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.event__more a{
+  display: block;
+  width: 22px;
+  height: 22px;
+}
+
+.event__more span{
+  position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
+.event__area section .env{
+  color: #599100;
+}
+
+.event__area section .work{
+  color: #028ab6;
+}
+
+.event__area section .eco{
+  color: #069363;
+}
+
+.event__area section .cur{
+  color: #9B64D3;
+}
+
+.event__area section .home{
+  color: #c35c3c;
 }
