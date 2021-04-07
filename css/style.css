@@ -23,7 +23,7 @@ a {
 .page_size {
   width: 1160px;
   margin: 0 auto;
-  height: 400vh;
+  /* height: 4vh; */
 }
 
 
@@ -1108,7 +1108,7 @@ footer{
 .footer__bottom-wrap{
   overflow: hidden;
   position: relative;
-  margin-top: 25px;
+  margin: 25px 0;
 }
 
 .footer__bottom-wrap .call{
