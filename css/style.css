@@ -9,6 +9,7 @@ body,
 h1 {
   margin: 0;
   font-family: '나눔고딕';
+  letter-spacing: -1px;
 }
 
 li {
@@ -22,7 +23,7 @@ a {
 .page_size {
   width: 1160px;
   margin: 0 auto;
-  height: 200vh;
+  height: 400vh;
 }
 
 
@@ -286,19 +287,19 @@ top: 60px;
 }
 
 .main__banner .banner__slide div .prev{
-  background: url(../img/banner/prev.png) no-repeat center center;
+  background: url(../img/icon_prev.png) no-repeat center center;
   height: 14px;
   width: 14px;
 }
 
 .main__banner .banner__slide div .stop{
-  background: url(../img/banner/stop.png) no-repeat center center;
+  background: url(../img/icon_stop.png) no-repeat center center;
   height: 14px;
   width: 14px;
 }
 
 .main__banner .banner__slide div .next{
-  background: url(../img/banner/next.png) no-repeat center center;
+  background: url(../img/icon_next.png) no-repeat center center;
   height: 14px;
   width: 14px;
 }
@@ -343,10 +344,10 @@ top: 60px;
 }
 
 .live__list-2 span:nth-child(2){
-  margin-left: 70px;
+  margin-left: 78px;
 }
 .live__list-2 span:last-child{
-  margin-left: 78px;
+  margin-left: 82px;
 }
 
 
@@ -362,7 +363,7 @@ top: 60px;
 }
 
 .cure__list-1 span, .cure__list-2 span{
-  padding-right: 28px;
+  padding-right: 34px;
 }
 
 .cure__list-1 span:nth-child(3){
@@ -508,7 +509,7 @@ top: 60px;
 
 .event__area{
   overflow: hidden;
-  padding: 50px 0;
+  padding: 35px 0;
   font-size: 15px;
   position: relative;
 }
@@ -614,4 +615,530 @@ top: 60px;
 
 .event__area section .home{
   color: #c35c3c;
+}
+
+/* .part__info__area{
+  position:relative;
+  overflow: hidden;
+} */
+
+.part__info__area{
+  width: 1160px;
+  position: relative;
+}
+
+.part__info h2{
+  margin-top: 30px;
+}
+
+.part__info-list{
+  overflow: hidden;
+  width: 100%;
+  height: 150px
+  
+}
+
+.part__info-list li{
+  width: 85px;
+  height: 100px;
+  float: left;
+  padding: 15px 30px;
+}
+
+.part__info-list a{
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+  padding-top: 110px;
+}
+
+.part__info-list .house{
+  background: url(../img/info/icon_house.png) no-repeat center center;
+}
+.part__info-list .economy{
+  background: url(../img/info/icon_economy.png) no-repeat center center;
+}
+.part__info-list .traffic{
+  background: url(../img/info/icon_traffic.png) no-repeat center center;
+}
+.part__info-list .environment{
+  background: url(../img/info/icon_environment.png) no-repeat center center;
+}
+.part__info-list .welfare{
+  background: url(../img/info/icon_welfare.png) no-repeat center center;
+}
+.part__info-list .safety{
+  background: url(../img/info/icon_safty.png) no-repeat center center;
+}
+.part__info-list .culture{
+  background: url(../img/info/icon_culture.png) no-repeat center center;
+}
+.part__info-list .work{
+  background: url(../img/info/icon_work.png) no-repeat center center;
+}
+
+.new__news{
+  width: 1160px;
+  position: relative;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+.new__news-list{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  
+}
+
+.new__news-list div{
+  float: left;
+  padding: 20px 0;
+  margin-right: 20px;
+  width: 273px;
+  height: 233px;
+  position: relative;
+}
+
+.new__news-list p{
+  padding: 15px 0;
+}
+
+.new__news-list img{
+  width: 273px;
+  height: 188px;
+}
+
+
+.new__news-list a h3{
+  font-size: 14px;
+  position: absolute;
+  bottom: 67px;
+  color: white;
+  width: 82px;
+  height: 32px;
+  text-align: center;
+  line-height: 32px;
+}
+
+.new__news-list .work{
+  background-color: #028AB6;
+}
+
+.new__news-list .environment{
+  background-color: #599100;
+}
+
+.new__news-list .traffic{
+  background-color: #337ee2;
+}
+
+.new__news-list .welfare{
+  background-color: #d76000;
+}
+
+.new__news-list .house{
+  background-color: #c35c3c;
+  
+}
+
+.new__news-list .news-8 img{
+  width: 273px;
+  height: 248px;
+}
+
+.new__news-list .news-4{
+  margin-right: 0;
+}
+
+.new__news-list .news-8{
+  margin-right: 0;
+}
+
+
+.new__news-2{
+  margin-top: 40px;
+  width: 1160px;
+  overflow: hidden;
+  border-bottom: 2px solid black;
+}
+
+.new__news-2 h2{
+  margin-bottom: 10px;
+}
+
+.seoul__news-area {
+  float: left;
+  width: 780px;
+}
+
+.seoul__video{
+  float: left;
+  width: 280px;
+}
+
+.seoul__video figcaption{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  position:relative;
+  bottom: 48px;
+  padding: 11px 5px;
+  margin-left: 20px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 250px;
+  font-weight: 700;
+  
+}
+
+.seoul__news{
+  float: left;
+  width: 480px;
+  margin-left: 20px;
+}
+
+
+.seoul__news li{
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.seoul__news b{
+  margin-right: 12px;
+  color: #09ac43;
+}
+
+.seoul__sns{
+  overflow: hidden;
+  position: relative;
+  float: left;
+  width: 350px;
+  height: 195px;
+  margin-left: 20px;
+  background: url(../img/seoul_sns/bg_sns_list.gif) no-repeat center center;
+}
+
+.sns__header{
+  /* margin-top: 10px; */
+  padding: 10px 5px 0 15px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.sns__header h2{
+  float: left;
+  font-size: 22px;
+}
+
+
+.seoul__sns .sns__header-icon{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  width: 38px;
+  height: 24px;
+  background-position: -245px 1px;
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  display: block;
+  position: relative;
+  left: 120px;
+  top: 5px;
+  
+}
+
+.sns__list{
+  overflow: hidden;
+  width: 100%; 
+  height: 100%;
+  position: absolute;
+  top: 95px;
+  left: 40px;
+}
+
+.sns__list ul{
+  overflow: hidden;
+}
+
+.sns__list li{
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+}
+
+
+.sns__list li span{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.sns__insta{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: 0;
+}
+
+.sns__facebook{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: -40px;
+}
+
+.sns__twit{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: -80px;
+}
+
+.sns__blog{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: -120px;
+}
+
+.sns__youtube{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: -160px;
+}
+
+.sns__kakao{
+  background: url(../img/seoul_sns/ico_sns_list.png) no-repeat center center;
+  background-position: -200px;
+}
+
+.bottom__banner{
+  width: 1160px;
+  overflow: hidden;
+  position: relative;
+  margin-top: 50px;
+  
+}
+
+.bottom__banner ul{
+  overflow: hidden;
+  width: 100%;
+  
+}
+
+.bottom__banner li{
+  float: left;
+}
+
+.bottom__banner .banner__space{
+  padding: 0 47px;
+}
+
+.banner__select{
+  overflow: hidden;
+  float: right;
+  font-size: 14px;
+}
+
+.banner__counter{
+  float: left;
+  
+}
+
+.counter__btn{
+  float: left;
+  overflow: hidden;
+  margin-left: 10px;
+}
+
+.counter__btn li{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.counter__btn .btn__prev {
+  background: url(../img/icon_prev.png) no-repeat center center;
+  width: 18px;
+  height: 18px;
+
+}
+
+.counter__btn .btn__stop {
+  background: url(../img/icon_stop.png) no-repeat center center;
+  width: 18px;
+  height: 18px;
+  
+}
+
+.counter__btn .btn__next {
+  background: url(../img/icon_next.png) no-repeat center center;
+  width: 18px;
+  height: 18px;
+
+}
+
+
+.counter__btn li a{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+footer{
+  width: 1160px;
+  margin-top: 30px;
+}
+
+.footer__top-wrap{
+  width: 1160px;
+  padding: 10px 0;
+  position: relative;
+  overflow: hidden;
+  vertical-align: middle;
+}
+
+.footer__link{
+  font-size: 12px;
+  float: left;
+
+}
+
+.footer__link-list ul{
+  overflow: hidden;
+}
+
+.footer__link-list li{
+  float: left;
+  padding: 0 10px;
+  position: relative;
+}
+
+.footer__link-list li:after{
+  content: "";
+  width: 1px;
+  height: 14px;
+  /* padding: 0 20px; */
+  position:absolute;
+  display: block;
+  background-color: gray;
+  top: 3px;
+  left: 0;
+}
+
+.footer__sns{
+  overflow: hidden;
+  /* font-size: 14px; */
+}
+
+.footer__sns-list{
+  float: right;
+}
+
+.footer__sns-list span{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.footer__sns-list a{
+  /* background: url(../img/icon_set_sns.png) no-repeat -25px 0; */
+  display: inline-block;
+  width: 25px;
+  height: 24px;
+}
+
+.facebook{
+  background: url(../img/icon_set_sns.png) no-repeat -25px 0;
+}
+
+.twitter{
+  background: url(../img/icon_set_sns.png) no-repeat -50px 0;
+}
+
+.instagram{
+  background: url(../img/icon_set_sns.png) no-repeat -75px 0;
+}
+
+.kakao_story{
+  background: url(../img/icon_set_sns.png) no-repeat -100px 0;
+}
+
+.youtube{
+  background: url(../img/icon_set_sns.png) no-repeat -125px 0;
+
+}
+
+.naver_blog{
+  background: url(../img/icon_set_sns.png) no-repeat -150px 0;
+}
+
+
+.facebook:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -25px -25px;
+}
+
+.twitter:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -50px -25px;
+}
+
+.instagram:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -75px -25px;
+}
+
+.kakao_story:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -100px -25px;
+}
+
+.youtube:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -125px -25px;
+
+}
+
+.naver_blog:hover{
+  background: url(../img/icon_set_sns.png) no-repeat -150px -25px;
+}
+
+.footer__bottom-wrap{
+  overflow: hidden;
+  position: relative;
+  margin-top: 25px;
+}
+
+.footer__bottom-wrap .call{
+  float: left;
+}
+
+.footer__bottom-wrap .address{
+  float: left;
+  font-size: 12px;
+  margin-left: 40px;
+}
+
+.footer__bottom-wrap .address p{
+  padding-bottom: 5px;
+}
+
+.address .chattalk{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  padding: 5px 5px 5px 20px;
+  background: url(../img/icon_chatbot.png) no-repeat 4px 4px;
+  background-size: 16px auto;
+  font-weight: 600;
+}
+
+
+.footer__bottom-wrap .w3c_imgs{
+  float: right;
+}
+
+.w3c_imgs img{
+padding: 0 5px;
 }
