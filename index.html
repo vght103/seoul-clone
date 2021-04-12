@@ -1,55 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>서울특별시</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style_2.css" />
   </head>
   <body>
     <div class="page_size">
       <header class="header__area">
-        <div class="container">
-          <h1 class="header__logo">
-            <a href="#"><span class="text__hide">서울특별시</span></a>
-          </h1>
-          <div class="header__gnb">
-            <ul class="header__menu">
-              <li><a href="#">서울소식</a></li>
-              <li><a href="#">시민참여</a></li>
-              <li><a href="#">분야별정보</a></li>
-              <li><a href="#">서울소개</a></li>
-              <li><a href="#">부서안내</a></li>
-              <li><a href="#">정보공개</a></li>
-              <li><a href="#">응답소</a></li>
-            </ul>
-          </div>
-          <div class="header__login">
-            <ul class="header__login">
-              <li><a href="#">로그인</a></li>
-              <li><a href="#">나의서울</a></li>
-              <li><a href="#">전자우편</a></li>
-            </ul>
-          </div>
+        <h1 class="header__logo">
+          <a href="#"><span class="text__hidden">서울특별시</span></a>
+        </h1>
+
+        <nav class="header__gnb">
+          <ul class="header__menu">
+            <li><a href="#">서울소식</a></li>
+            <li><a href="#">시민참여</a></li>
+            <li><a href="#">분야별정보</a></li>
+            <li><a href="#">서울소개</a></li>
+            <li><a href="#">부서안내</a></li>
+            <li><a href="#">정보공개</a></li>
+            <li><a href="#">응답소</a></li>
+          </ul>
+        </nav>
+
+        <div class="header__top-menu">
+          <ul>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">나의서울</a></li>
+            <li><a href="#">전자우편</a></li>
+          </ul>
         </div>
       </header>
 
       <main>
-        <div class="search__area">
-          <h1 class="search__area-logo">
-            <a href="#"><span>I SEOUL YOU</span></a>
+        <div class="inner__1">
+          <h1 class="inner__1-logo">
+            <a href="#"><span class="text__hidden">I SEOUL YOU</span></a>
           </h1>
 
-          <div class="search">
-            <form class="search__bar">
-              <input type="text" placeholder="검색어를 입력해주세요" />
-              <img src="../seoul-clone/img/keyboard.png" alt="입력도구" />
-              <button type="button" class="search__btn-icon"></button>
-            </form>
-          </div>
+          <form class="search__bar">
+            <input type="text" placeholder="검색어를 입력해주세요" />
+            <img src="../seoul-clone/img/keyboard.png" alt="입력도구" />
+            <button type="button" class="search__btn-icon"></button>
+          </form>
 
-          <div class="search__weather">
+          <div class="inner__1-weather">
             <div class="weader-up">
               <span>11.1℃</span>
               <span>서울시</span>
@@ -72,32 +70,38 @@
           </form>
         </div>
 
-        <div class="banner__area">
+        <div class="inner__2">
           <div class="banner__tab">
             <h3 class="banner__tab-1">
               <a href="#"><span class="banner__news-ico">주요뉴스</span></a>
             </h3>
 
             <h3 class="banner__tab-2">
-              <a href="#"><span class="banner__news-ico">시민참여</span> </a>
+              <a href="#"><span class="banner__news-ico">시민참여</span></a>
             </h3>
           </div>
 
-          <figure class="main__banner">
+          <figure class="main__banner-img">
             <img
               src="../seoul-clone/img/banner/84410f3cea5b49be8af38599a26132b2.jfif"
               alt="코로나 백신 예방접종 장소안내"
             />
-            <figcaption class="banner__slide">
-              <span>나의 백신 예방접종 장소는?</span>
-              <div>4/6</div>
+            <figcaption>나의 백신 예방접종 장소는?</figcaption>
 
-              <div>
-                <a href="#" class="prev">1</a>
-                <a href="#" class="stop">2</a>
-                <a href="#" class="next">3</a>
-              </div>
-            </figcaption>
+            <div class="banner__slide">
+              <span>4/6</span>
+              <ul class="banner__slide-btn">
+                <li class="btn__prev">
+                  <a href="#" class="text__hidden">뒤로</a>
+                </li>
+                <li class="btn__stop">
+                  <a href="#" class="text__hidden">멈춤</a>
+                </li>
+                <li class="btn__next">
+                  <a href="#" class="text__hidden">다음</a>
+                </li>
+              </ul>
+            </div>
           </figure>
 
           <div class="covid__list">
@@ -146,44 +150,77 @@
           </div>
         </div>
 
-        <div class="seoul__service">
+        <div class="inner__3">
           <section class="service__wrap-1">
             <h2>주요 서비스</h2>
             <hr />
             <div class="seoul__service-area">
               <ul>
                 <li class="answer">
-                  <a href="#"><i></i>응답소(민원신고)</a>
+                  <a href="#"
+                    ><p></p>
+                    응답소(민원신고)</a
+                  >
                 </li>
                 <li class="seoul">
-                  <a href="#"><i></i>민주주의서울</a>
+                  <a href="#"
+                    ><p></p>
+                    민주주의서울</a
+                  >
                 </li>
                 <li class="job">
-                  <a href="#"><i></i>서울일자리</a>
+                  <a href="#"
+                    ><p></p>
+                    서울일자리</a
+                  >
                 </li>
                 <li class="study">
-                  <a href="#"><i></i>평생학습포털</a>
+                  <a href="#"
+                    ><p></p>
+                    평생학습포털</a
+                  >
                 </li>
                 <li class="town">
-                  <a href="#"><i></i>우리동네키움포털</a>
+                  <a href="#"
+                    ><p></p>
+                    우리동네키움포털</a
+                  >
                 </li>
                 <li class="realty">
-                  <a href="#"><i></i>부동산정보</a>
+                  <a href="#"
+                    ><p></p>
+                    부동산정보</a
+                  >
                 </li>
                 <li class="service">
-                  <a href="#"><i></i>공공서비스예약</a>
+                  <a href="#"
+                    ><p></p>
+                    공공서비스예약</a
+                  >
                 </li>
                 <li class="welfare">
-                  <a href="#"><i></i>서울복지포털</a>
+                  <a href="#"
+                    ><p></p>
+                    서울복지포털</a
+                  >
                 </li>
                 <li class="house">
-                  <a href="#"><i></i>서울주거포털</a>
+                  <a href="#"
+                    ><p></p>
+                    서울주거포털</a
+                  >
                 </li>
                 <li class="manifesto">
-                  <a href="#"><i></i>공약&매니페스토</a>
+                  <a href="#"
+                    ><p></p>
+                    공약&매니페스토</a
+                  >
                 </li>
                 <li class="council">
-                  <a href="#"><i></i>시의회</a>
+                  <a href="#"
+                    ><p></p>
+                    시의회</a
+                  >
                 </li>
               </ul>
             </div>
@@ -195,14 +232,14 @@
               <li>
                 <a href="#">
                   <img
-                    src="../seoul-clone/img/service/IMGBANNER_20210215094804_33420.png "
+                    src="../seoul-clone/img/service/IMGBANNER_20210215094804_33420.jfif"
                     alt="사회적 거리두기 2단계 실시"
                 /></a>
               </li>
               <li>
                 <a href="#">
                   <img
-                    src="../seoul-clone/img/service/IMGBANNER_20200306164810_16746.png "
+                    src="../seoul-clone/img/service/IMGBANNER_20200306164810_16746.jfif "
                     alt="선별진료소 현황(이동식 선별진료소 포함)"
                     class="divider"
                   />
@@ -211,7 +248,7 @@
               <li>
                 <a href="#">
                   <img
-                    src="../seoul-clone/img/service/IMGBANNER_20210226142850_78102.png "
+                    src="../seoul-clone/img/service/IMGBANNER_20210226142850_78102.jfif "
                     alt="코로나19 예방접종 천만시민 백신접종 대장정"
                 /></a>
               </li>
@@ -219,11 +256,13 @@
           </div>
         </div>
 
-        <div class="event__area">
-          <section class="event__1">
+        <div class="inner__4">
+          <section class="inner__4-event-1">
             <h2>이벤트 신청</h2>
-            <p class="event__more">
-              <a href="#"><span>이벤트 신청 더보기</span></a>
+            <p class="event__more-ico">
+              <a href="#"
+                ><span class="text__hidden">이벤트 신청 더보기</span></a
+              >
             </p>
             <hr />
             <ul>
@@ -250,10 +289,12 @@
             </ul>
           </section>
 
-          <section class="event__2">
+          <section class="inner__4-event-2">
             <h2>이달의 행사 및 축제</h2>
-            <p class="event__more">
-              <a href="#"><span>이달의 행사 및 축제</span></a>
+            <p class="event__more-ico">
+              <a href="#"
+                ><span class="text__hidden">행사 및 축제 더보기</span></a
+              >
             </p>
             <hr />
             <ul>
@@ -293,7 +334,7 @@
             </ul>
           </section>
 
-          <section class="event__3">
+          <section class="inner__4-event-3">
             <h2>자주 찾은 서비스</h2>
             <ul>
               <li><a href="#">ㆍ법무행정(자치법규)</a></li>
@@ -310,11 +351,11 @@
           </section>
         </div>
 
-        <div class="part__info__area">
+        <div class="inner__5">
           <hr />
-          <section class="part__info">
+          <section class="inner__5-info">
             <h2>분야별정보</h2>
-            <div class="part__info-list">
+            <div class="inner__5-info-list">
               <ul>
                 <li class="house"><a href="#">주택</a></li>
                 <li class="economy"><a href="#">경제</a></li>
@@ -329,11 +370,11 @@
           </section>
         </div>
 
-        <div class="new__news">
-          <section class="new__news-area">
+        <div class="inner__6">
+          <section class="inner__6-area">
             <h2>새소식</h2>
-            <div class="new__news-list">
-              <div class="news-1">
+            <ul class="inner__6-list">
+              <li class="news-1">
                 <a href="#">
                   <h3 class="work">행정</h3>
                   <img src="../seoul-clone/img/new/gov_news0315-1.jpg" alt="" />
@@ -342,17 +383,17 @@
                     팡팡 터진다
                   </p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-2">
+              <li class="news-2">
                 <a href="#">
                   <h3 class="environment">환경</h3>
-                  <img src="../seoul-clone/img/new/env_news0319.jpg" alt="" />
+                  <img src="../seoul-clone/img/env_news0319.jpg" alt="" />
                   <p>서울시, 4월 식목월 맞아‘나무 심으러 한강 가요!’캠페인</p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-3">
+              <li class="news-3">
                 <a href="#">
                   <h3 class="environment">환경</h3>
                   <img
@@ -364,9 +405,9 @@
                     재개장
                   </p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-4">
+              <li class="news-4">
                 <a href="#">
                   <h3 class="traffic">교통</h3>
                   <img
@@ -377,9 +418,9 @@
                     서울시, 여의도 봄꽃축제 제한적 관람… 버스 임시우회 등 통제
                   </p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-5">
+              <li class="news-5">
                 <a href="#">
                   <h3 class="traffic">교통</h3>
                   <img
@@ -388,9 +429,9 @@
                   />
                   <p>서울시내버스, 평일 22시 이후 야간 운행 정상화</p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-6">
+              <li class="news-6">
                 <a href="#">
                   <h3 class="welfare">복지</h3>
                   <img
@@ -399,9 +440,9 @@
                   />
                   <p>수기명부에 휴대전화번호 대신 '개인안심번호' 적으세요!</p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-7">
+              <li class="news-7">
                 <a href="#">
                   <h3 class="house">주택</h3>
                   <img
@@ -413,22 +454,22 @@
                     ~ 4/8(목) 24:00까지]
                   </p>
                 </a>
-              </div>
+              </li>
 
-              <div class="news-8">
+              <li class="news-8">
                 <a href="#">
                   <img
                     src="../seoul-clone/img/new/SPC_20200617142946_28673.jfif"
-                    alt="" />
-                  <p></p
-                ></a>
-              </div>
-            </div>
+                    alt="특별기획, 시민의 삶을 바꾸는 앞으로 10년, 서울미래지도"
+                  />
+                </a>
+              </li>
+            </ul>
           </section>
         </div>
 
-        <div class="new__news-2">
-          <section class="seoul__news-area">
+        <div class="inner__7">
+          <section class="inner__7-area">
             <div class="seoul__video">
               <h2>서울영상</h2>
               <figure>
@@ -482,29 +523,29 @@
             <div class="sns__list">
               <ul>
                 <li class="sns__insta">
-                  <a href="#"><span>인스타그램</span></a>
+                  <a href="#"><span class="text__hidden">인스타그램</span></a>
                 </li>
                 <li class="sns__facebook">
-                  <a href="#"><span>페이스북</span></a>
+                  <a href="#"><span class="text__hidden">페이스북</span></a>
                 </li>
                 <li class="sns__twit">
-                  <a href="#"><span>트위터</span></a>
+                  <a href="#"><span class="text__hidden">트위터</span></a>
                 </li>
                 <li class="sns__blog">
-                  <a href="#"><span>네이버블로그</span></a>
+                  <a href="#"><span class="text__hidden">네이버블로그</span></a>
                 </li>
                 <li class="sns__youtube">
-                  <a href="#"><span>유투브</span></a>
+                  <a href="#"><span class="text__hidden">유투브</span></a>
                 </li>
                 <li class="sns__kakao">
-                  <a href="#"><span>카카오스토리</span></a>
+                  <a href="#"><span class="text__hidden">카카오스토리</span></a>
                 </li>
               </ul>
             </div>
           </section>
         </div>
 
-        <div class="bottom__banner">
+        <div class="inner__8">
           <div class="banner__list">
             <ul>
               <li>
@@ -539,9 +580,15 @@
             </div>
             <div class="counter__btn">
               <ul>
-                <li class="btn__prev"><a href="#">뒤로</a></li>
-                <li class="btn__stop"><a href="#">멈춤</a></li>
-                <li class="btn__next"><a href="#">앞으로</a></li>
+                <li class="btn__prev">
+                  <a href="#" class="text__hidden">뒤로</a>
+                </li>
+                <li class="btn__stop">
+                  <a href="#" class="text__hidden">멈춤</a>
+                </li>
+                <li class="btn__next">
+                  <a href="#" class="text__hidden">앞으로</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -553,32 +600,49 @@
           <div class="footer__link">
             <div class="footer__link-list">
               <ul>
-                <li class="helper">홈페이지 도우미</li>
+                <li class="helper"><a href="#">홈페이지 도우미</a></li>
                 <li class="security">
-                  <b style="color: black">개인정보처리방침</b>
+                  <b style="color: black"><a href="#">개인정보처리방침</a></b>
                 </li>
-                <li class="copyright">저작권 정책</li>
-                <li class="policy">영상정보처리기기 운영 관리방침</li>
-                <li class="homepage">홈페이지 바로잡기</li>
-                <li class="sitemap">사이트맵</li>
+                <li class="copyright"><a href="#">저작권 정책</a></li>
+                <li class="policy">
+                  <a href="#">영상정보처리기기 운영 관리방침</a>
+                </li>
+                <li class="homepage"><a href="#">홈페이지 바로잡기</a></li>
+                <li class="sitemap"><a href="#">사이트맵</a></li>
               </ul>
             </div>
           </div>
           <div class="footer__sns">
             <div class="footer__sns-list">
-              <a href="#" class="facebook"><span>페이스북</span></a>
-              <a href="#" class="twitter"><span>트위터</span></a>
-              <a href="#" class="instagram"><span>인스타그램</span></a>
-              <a href="#" class="kakao_story"><span>카카오스토리</span></a>
-              <a href="#" class="youtube"><span>유투브</span></a>
-              <a href="#" class="naver_blog"><span>네이버블로그</span></a>
+              <a href="#" class="facebook"
+                ><span class="text__hidden">페이스북</span></a
+              >
+              <a href="#" class="twitter"
+                ><span class="text__hidden">트위터</span></a
+              >
+              <a href="#" class="instagram"
+                ><span class="text__hidden">인스타그램</span></a
+              >
+              <a href="#" class="kakao_story"
+                ><span class="text__hidden">카카오스토리</span></a
+              >
+              <a href="#" class="youtube"
+                ><span class="text__hidden">유투브</span></a
+              >
+              <a href="#" class="naver_blog"
+                ><span class="text__hidden">네이버블로그</span></a
+              >
             </div>
           </div>
         </div>
         <hr />
         <div class="footer__bottom-wrap">
           <div class="call">
-            <img src="../seoul-clone/img/call_img.png" alt="" />
+            <img
+              src="../seoul2/img/call_img.png"
+              alt="정보를 못찾으셨나요? 120번 다산 콜센터로 물어보세요."
+            />
           </div>
           <div class="address">
             <p>
